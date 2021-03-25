@@ -1,0 +1,14 @@
+com/veroshop/MainActivity.java
+ com.veroshop.MainActivity
+com/veroshop/MainApplication.java
+ com.veroshop.MainApplication
+ com.veroshop.MainApplication$1
+com/veroshop/ReactNativeFlipper.java
+ com.veroshop.ReactNativeFlipper
+ com.veroshop.ReactNativeFlipper$1
+ com.veroshop.ReactNativeFlipper$2
+ com.veroshop.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/veroshop/BuildConfig.java
+ com.veroshop.BuildConfig

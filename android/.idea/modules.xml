@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Veroshop.iml" filepath="$PROJECT_DIR$/.idea/modules/Veroshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Veroshop.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Veroshop.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-599989064/Veroshop.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-599989064/Veroshop.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-195412193/Veroshop.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-195412193/Veroshop.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1850136675/Veroshop.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-1850136675/Veroshop.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1838812104/Veroshop.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/1838812104/Veroshop.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-688650784/Veroshop.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-688650784/Veroshop.react-native-screens.iml" />
+    </modules>
+  </component>
+</project>

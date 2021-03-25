@@ -1,0 +1,6 @@
+module Pods_Veroshop {
+  umbrella header "Pods-Veroshop-umbrella.h"
+
+  export *
+  module * { export * }
+}
