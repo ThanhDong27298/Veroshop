@@ -19,13 +19,18 @@ import Key from '../constants/Key';
 const LoginScreen = ({navigation}) => {
   const [textInputValue, setTextInputValue] = useState('');
 
-  const saveValue = () => {
-    if (textInputValue) {
-      AsyncStorage.setItem(Key.logIn, textInputValue);
-      setTextInputValue('');
-      navigation.navigate('Home');
-    } else {
-      Alert.alert('Please enter your email');
+  const saveValue = async () => {
+    try {
+      if (textInputValue) {
+        await AsyncStorage.setItem(Key.logIn, textInputValue);
+        console.log(textInputValue);
+        setTextInputValue('');
+        navigation.navigate('Home');
+      } else {
+        Alert.alert('Please enter your email');
+      }
+    } catch (error) {
+      console.log(error.message);
     }
   };
 

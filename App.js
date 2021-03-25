@@ -19,11 +19,16 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 const Stack = createStackNavigator();
 
 export default function App() {
-  const hasLogin = routeName => {
-    if (AsyncStorage.getItem(Key.logIn) === null) {
-      return (routeName = 'Start');
-    } else {
-      return (routeName = 'Home');
+  const hasLogin = async () => {
+    try {
+      let value = await AsyncStorage.getItem(Key.logIn);
+      if (value !== null) {
+        return 'Home';
+      } else {
+        return 'Start';
+      }
+    } catch (error) {
+      console.log(error.message);
     }
   };
 

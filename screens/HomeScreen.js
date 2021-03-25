@@ -7,9 +7,13 @@ import Colors from '../constants/Colors';
 import Key from '../constants/Key';
 
 const HomeScreen = ({navigation}) => {
-  const removeValue = () => {
-    AsyncStorage.removeItem(Key.logIn);
-    navigation.navigate('Login');
+  const removeValue = async () => {
+    try {
+      await AsyncStorage.removeItem(Key.logIn);
+      navigation.navigate('Login');
+    } catch (error) {
+      console.log(error.message);
+    }
   };
 
   return (
